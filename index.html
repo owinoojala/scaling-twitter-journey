@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/general.css">
+    <link rel="stylesheet" href="CSS/navigation.css">
     <title>Twitter Home</title>
 </head>
 <body>
@@ -12,34 +13,44 @@
         <div class="twitter-logo">
             <img src="icons/twitter-logo.png" alt="">
         </div>
-        <div class="home">
-            <img src="icons/Home-icon.jfif" alt="">
-            <p>Home</p>
+        <div class="nav-items">
+            <div class="home">
+                <img src="icons/Home-icon.jfif" alt="">
+                <p>Home</p>
+            </div>
+            <div class="explore">
+                <div>#</div>
+                <p>Explore</p>
+            </div>
+            <div class="notifications">
+                <img src="icons/notifications-icon.jpg" alt="">
+                <p>Notifications</p>
+            </div>
+            <div class="bookmarks">
+                <img src="icons/bookmarks-icon.png" alt="">
+                <p>Bookmarks</p>
+            </div>
+            <div class="messages">
+                <img src="icons/messages-icon.png" alt="">
+                <p>Messages</p>
+            </div>
+            <div class="lists">
+                <img src="icons/lists-icon.png" alt="">
+                <p>Lists</p>
+            </div>
+            <div class="profile">
+                <img src="icons/profile-icon.png" alt="">
+                <p>Profile</p>
+            </div>
+            <div class="more">
+                <img src="icons/more-icon.png" alt="">
+                <p>More</p>
+            </div>
+            <div><button>Tweet </button></div>
         </div>
-        <div class="explore">
-            <div>#</div>
-            <p>Explore</p>
-        </div>
-        <div class="notifications">
-            <img src="icons/notifications-icon.jpg" alt="">
-            <p>Notifications</p>
-        </div>
-        <div class="messages">
-            <img src="icons/messages-icon.png" alt="">
-            <p>Messages</p>
-        </div>
-        <div class="profile">
-            <img src="icons/profile-icon.png" alt="">
-            <p>Profile</p>
-        </div>
-        <div class="more">
-            <img src="icons/more-icon.png" alt="">
-            <p>More</p>
-        </div>
-        <div><button>Tweet </button></div>
         <div class="current-user">
-            <img src="icons/profile-image.jpg" alt="">
-            <div class="tweitter-identity">
+            <img src="icons/profile-image.jpg" alt="" >
+            <div class="twitter-identity">
                 <p class="account-name">Ojala F Senior</p>
                 <p class="twitter-handle">@OjalaSenior</p>
             </div>
@@ -49,5 +60,68 @@
         </div>
         
     </nav>
+    <main>
+        <section class="middles section">
+            <div class="header">
+                <p>Home</p>
+                <img src="icons/top-tweets-icon.png" alt="">
+            </div>
+            <!--Typing area-->
+            <div class="tweeting-section">
+                <img src="icons/profile-image.jpg" alt="" class="profile-pic">
+                <div class="typing-area">
+                    <input type="text" placeholder="What's happening" maxlength="150">
+                    <div class="attach-icons">
+                        <div>
+                            <img src="icons/Gallery-icon.jfif" alt="">
+                            <img src="icons/gif-icon.jfif" alt="">
+                            <img src="icons/poll-icon.png" alt="">
+                            <img src="icons/emoji-icon.png" alt="">
+                            <img src="icons/schedule-icon.png" alt="">
+                            <img src="icons/location-icon.png" alt="">
+                        </div>
+                        <div>
+                            <button class="tweet-btn">Tweet</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Tweets 1-->
+            <div class="tweet">
+                <div class="recommendation">
+                    <p>
+                        <span class="topic">Based on your Retweets &#183;</span>
+                        <span class="see-more">See more</span> 
+                    </p>
+                </div>
+                <div class="profile-pic">
+                    <img src="icons/user-dp.jpg" alt="">
+                </div>
+                <div class="message-section">
+                    <div class="user-id">
+                        <p>
+                        <span class="account-name">The Romantic Mukiga</span>
+                        <span class="twitter-handle">@meka-ug &#183;15h</span>
+                        </p>
+                        <p class="options-icon">&#8230;</p>
+                    </div>
+                    <div class="message">
+                        <p>
+                            Oba how does his wife feel after 
+                            seeing him tweet stuff like that?? 
+                        </p>
+                    </div>
+                    <div class="tweet-stats">
+                        <div>
+                            <p class="stats-con"> &#8635; 234</p>
+                            <p class="stat-icon"> &#10084; 2178</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
