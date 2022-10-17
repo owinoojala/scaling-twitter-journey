@@ -4,14 +4,13 @@ body{
     flex-direction: row;
     padding-left: 350px;
     color:  white;
-    font-weight: bold;
     font-family: Roboto, Arial;
     padding-bottom: 500px;
 }
 .middle-section{
     display: flex;
     flex-direction: column;
-    /* width: 1000px; */
+    width: 600px;
     justify-content: space-between;
     align-items: flex-start;
     background-color: white;
@@ -86,3 +85,39 @@ section hr{
     color: white;
 }
 
+/* Tweets */
+.tweet{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 600px;
+
+}
+.column-1{
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 50px;
+}
+.topic{
+    color: grey;
+
+}
+.see-more{
+    color: rgb(10, 169, 231);
+}
+.column-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.options-icon{
+    font-weight: bold;
+    font-size: 15px;
+    border-left: 70px;
+}
+.user-id{
+
+}
