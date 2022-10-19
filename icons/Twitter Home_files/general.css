@@ -1,74 +1,39 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #0c090A;
     display: flex;
     flex-direction: row;
-    padding-left: 282px;
+    padding-left: 342px;
     color:  white;
     font-family: 'Work Sans', sans-serif;
     padding-top: 20px;
-    margin-bottom: 10px;
-}
-.tweet-column{
-    display: flex;
-    flex-direction: row;justify-content: flex-start;
-}
-
-.vertical-left{
-    border: 1px solid;
-    border-color: gray;
-    left: 0;
-    position: relative;
-    top: -30px;
-    bottom: -100px;
-}
-.vertical-right{
-    border: 1px solid;
-    border-color: gray;
-    right: 0;
-    position: relative;
-    top: -30px;
-    bottom: -50px;
 }
 a{
     text-decoration: none;
     color: rgb(10, 169, 231);
 }
-hr{
-    width: 639px;
-    color: grey;
-
-}
 .middle-section{
     display: flex;
     flex-direction: column;
-    width: 639px;
+    width: 609px;
     justify-content: space-between;
     align-items: flex-start;
-    padding-bottom: 0px;
-    position:relative;
+    padding-bottom: 500px;
     
 }
-header{
+.header{
     display: flex;
     flex-direction: row;
-    width: 619px;
+    width: 609px;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     backdrop-filter: opacity(20%);
-    background-color:  rgb(0, 0, 0);
-    top: -5px;
-    padding-left:20px;
-    z-index: 2222;
+    background-color:  #0c090A;
+    top: 0;
     }
-    header img{
+    .header img{
         height: 40px;
-        border-radius: 20px; 
-        margin-right: 20px; 
-    }
-    header p{
-        font-size: 20px;
-        font-weight: 600;
+        border-radius: 20px;  
     }
 .tweeting-section{
     display: flex;
@@ -78,7 +43,6 @@ header{
     height: 150px;
     margin-top: 40px;
     margin-bottom: -50px;
-    padding-left: 20px;
 }
 .typing-area{
     display: flex;
@@ -86,8 +50,8 @@ header{
     justify-content: space-between;
     align-items: flex-start;
 }
-.typing-area textarea{
-    background-color: rgb(0, 0, 0);;
+.typing-area input{
+    background-color: #0c090A;
     height: 50px;
     border: none;
     color: white;
@@ -95,7 +59,7 @@ header{
     font-size: 14px;
     white-space: inherit;
 }
-.typing-area textarea::placeholder{
+.typing-area input::placeholder{
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
     color: grey;
@@ -137,7 +101,6 @@ header{
     justify-content: flex-start;
     padding-right: 20px;
     width: 600px;
-    padding-left: 20px;
 
 }
 .recommendation-row{
@@ -196,7 +159,6 @@ header{
     z-index: -1;
     width: 700px;
     position: relative;
-    padding-left: 20px;
 }
 .section-head{
     font-weight: bold;
@@ -218,6 +180,8 @@ header{
 .topics-btns{
     display: flex;
     flex-direction: column;
+   
+
 }
 .topics-btns div{
     display: flex;
@@ -239,7 +203,7 @@ header{
     padding: 0 15px;
     border: 1px solid grey;
     border-radius: 20px;
-    background-color:  rgb(0, 0, 0);;
+    background-color:  #0c090A;
     color: white;
 }
 .topics-btns button .topic-name{
@@ -259,9 +223,6 @@ header{
     font-size: 18px;
     font-weight: 100;
     margin-top: -15px;
-}
-.topics-btns:hover{
-    background-color: rgb(102, 100, 100);
 }
 
 

@@ -1,0 +1,213 @@
+.right-section{
+    flex: 1;
+    background-color: rgb(0, 0, 0) ;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    top: -40px;
+    width: 330px;
+    padding: 30px;
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+.search-bar{
+    margin-bottom: 10px;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    top: -10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+.text-box{
+    background-color: rgb(47, 51, 54);
+    border: none;
+    width: 310px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: grey;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+/*Trending topics */
+.follow-suggestions,
+.current-trends{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(47, 51, 54);
+    width: 310px;
+    padding: 0 20px;
+    margin-top: 45px;
+    padding-bottom: 18px;
+    border-radius: 30px;
+}
+.title{
+    font-size: 18px;
+    font-weight: 700;
+}
+.trending{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 280px;
+}
+.trend-region{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    margin: -15px 0;
+    padding: -20px 0;
+    width: 280px;
+}
+.region-name{
+    margin-right: 0px;
+    white-space: nowrap;
+    font-size: 13px;
+}
+.trending-topic{
+    font-size: 18px;
+    margin-top: -7px;
+    font-weight: 500;
+}
+.trend-stats{
+    color: grey;
+    font-size: 13px;
+    margin-top: -14px;
+}
+
+/* Suggested for follow */
+.follow-suggestions{
+    margin-top: 10px;
+}
+.user-to-follow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    vertical-align: top;
+    width: 280px;
+    margin-bottom: 15px;
+}
+.user-info{
+    margin-top: -10px;
+    margin-left: -35px;
+}
+.user-info .twitter-handle{
+    margin-top: -15px;
+}
+.promo{
+    color: grey;
+    margin-top: -15px;
+}
+.user-to-follow button{
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+/*Footer */
+footer{
+    color: gray;
+    font-size: 13px;
+    margin-top: 15px;
+}
+footer a{
+    color: gray;
+    transition: text-decoration 0.15s;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer div{
+    margin-top: -8px;
+}
+footer div span{
+    margin-right: 10px;
+}
+
+/*Fixed messaging box/*/
+.messaging-box{
+    position: fixed;
+    bottom: 0px;
+    right: 25px;
+    width: 300px;
+    height: 60px;
+    background-color:rgb(0, 0, 0);
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px 15px 0 0;
+}
+.messaging-box button{
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    margin-left: 8px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    transition: background-color .15s;
+}
+.messaging-box button:hover{
+    background-color: rgb(39, 38, 38);
+}
+/*Page Responsive*/
+@media(max-width:800px){
+    body{
+        display: grid;
+        padding-left: 92px;
+        width: 1fr;
+    }
+    nav{
+        width: 50px;
+    }
+    .nav-items button p{
+        opacity: 0;
+    }
+    .nav-items button{
+        height: 50px;
+    }
+    .nav-items button img{
+        margin-left: -8px;
+    }
+
+    .explore div{
+        padding-right: -10px;
+    }
+   
+    .nav-tweet-button{
+        opacity: 0;
+    }
+    .circular-tweet-btn{
+        opacity: 1;
+    }
+
+    nav .current-user .twitter-identity, .more-on-user{
+        opacity: 0;
+    }
+    nav .current-user img{
+        margin-left: 5px;
+    }
+    
+    .messaging-box{
+        opacity: 0;
+    }
+}

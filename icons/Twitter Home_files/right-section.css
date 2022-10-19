@@ -1,0 +1,77 @@
+.right-section{
+    flex: 1;
+    background-color: #0c090A;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    top: -20px;
+    width: 330px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+.search-bar{
+    margin-bottom: 10px;
+}
+.text-box{
+    background-color: rgb(47, 51, 54);
+    border: none;
+    width: 280px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: grey;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+.current-trends{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(47, 51, 54);
+    width: 280px;
+    padding: 0 20px;
+    padding-bottom: 18px;
+    border-radius: 30px;
+}
+.trends-head{
+    font-size: 18px;
+    font-weight: 700;
+}
+.trending{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 280px;
+    background-color: #fff;
+}
+.trend-region{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    margin: -15px 0;
+    padding: -20px 0;
+    width: 280px;
+}
+.region-name{
+    margin-right: 0px;
+    white-space: nowrap;
+    font-size: 13px;
+}
+.trending-topic{
+    font-size: 18px;
+    margin-top: 0px;
+    font-weight: 500;
+}
+.trend-stats{
+    color: grey;
+    font-size: 13px;
+    margin-top: -14px;
+}
+

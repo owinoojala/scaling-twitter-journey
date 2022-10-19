@@ -1,21 +1,20 @@
 
 nav{
+    border: 1px grey;
     display: flex;
-    width: 240px;
+    width: 280px;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(0, 0, 0);;
+    background-color: #0c090A;
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: bold;
     color: white;
-    padding: 10px 20px 50px 50px;
+    padding: 10px 20px 20px 50px;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
-    margin-left: -20px;
-    z-index: 1;
 }
 
 nav img{
@@ -41,73 +40,25 @@ nav img{
 .nav-items div{
     display: flex;
     flex-direction: row;
+    height: 40px;
     padding: 8px 20px;
     align-items: center;
     
-    height: 30px;
+    height: 40px;
     margin-bottom: -10px;
 }
 .home img{
     width: 24px;
-    height: 24px;
-}
-.nav-items .home{
-    height: 24px;
-    width: 24px;
 }
 .nav-items button{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 20px;
-    border-radius: 30px;
-}
-.nav-items button:hover{
-    background-color: rgb(102, 100, 100);
-}
-.nav-items button .explore{
-    margin-left: -10px;
-    margin-top: -5px;
-}
-.nav-tweet-button{
     border: none;
-    padding: 18px 95px;
+    padding: 15px 100px;
     margin-top: 20px;
-    margin-left: 0px;
     font-weight: bold;
     font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
     color: white;
     background-color: rgb(10, 169, 231);
     border-radius: 30px;
-}
-.circular-tweet-btn{
-    margin-top: -70px;
-    background-color:rgb(10, 169, 231);
-    border-radius: 30px;
-    height: 60px;
-    width: 60px;
-    color: white;
-    font-style: 28px;
-    position: absolute;
-    opacity: 0;
-    transition: opacity 0.15s;
-}
-.circular-tweet-btn:hover .tool-tip{
-    opacity: 1;
-}
-.tool-tip{
-    color: white;
-    background-color: grey;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 12px;
-    border-radius: 4px;
-    opacity: 0;
 }
 .explore div{
     margin-left: -10px;
@@ -119,11 +70,9 @@ nav img{
     display: flex;
     flex-direction: row;
     flex: 1;
-    width: 230px;
     justify-content: flex-start;
-    margin-top: 30px;
+    margin-top: 70px;
     vertical-align: top;
-    margin-bottom: 50px;
 
 }
 .current-user img{
@@ -133,7 +82,7 @@ nav img{
 
 }
 .twitter-identity{
-    flex: 1;
+    flex: 1fr;
     margin-right: 50px;
 }
 .account-name{
@@ -147,7 +96,6 @@ nav img{
 }
 .more-on-user{
     font-weight: 700;
-    margin-left: -20px;
 }
 
 /* .nav div{
