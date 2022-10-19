@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap"
-             rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap"
+                rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e845a48a56.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/general.css">
     <link rel="stylesheet" href="CSS/navigation.css">
     <link rel="stylesheet" href="CSS/right-section.css">
@@ -16,42 +17,43 @@
 <body>
     <nav>
         <div class="twitter-logo">
-            <img src="icons/twitter-logo.png" alt="">
+            <button>
+                <i class="fa-brands fa-twitter"></i>
+            </button>
         </div>
         <div class="nav-items">
             <button>
-                <img src="icons/Home-icon.jfif" alt="" class="home">
+                <i class="fa-solid fa-house-window"></i>
                 <p>Home</p>
             </button>
             <button class="explore">
-                <div>#</div>
+                <i class="fa-regular fa-hashtag"></i>
                 <p>Explore</p>
             </button>
             <button>
-                <img src="icons/notifications-icon.jpg" alt="">
+                <i class="fa-solid fa-bell"></i>
                 <p>Notifications</p>
             </button>
             <button>
-                <img src="icons/bookmarks-icon.png" alt="">
+                <i class="fa-regular fa-bookmark"></i>
                 <p>Bookmarks</p>
             </button>
             <button>
-                <img src="icons/messages-icon.png" alt="">
+                <i class="fa-regular fa-envelope"></i>
                 <p>Messages</p>
             </button>
             <button>
-                <img src="icons/lists-icon.png" alt="">
+                <i class="fa-solid fa-table-list"></i>
                 <p>Lists</p>
             </button>
             <button>
-                <img src="icons/profile-icon.png" alt="">
+                <i class="fa-regular fa-user"></i>
                 <p>Profile</p>
             </button>
             <button>
                 <img src="icons/more-icon.png" alt="">
                 <p>More</p>
-            </button>
-            
+            </button>  
         </div>
         <div>
             <button class="nav-tweet-button">Tweet</button>
@@ -72,314 +74,317 @@
         </div> 
     </nav>
     <!--MIDDLE SECTION BEGIN-->
-    <section class="tweet-column">
-        <div class="vertical-left">
-
-        </div>
-        <div class="middle-section">
-            <header>
-                <p>Home</p>
-                <img src="icons/top-tweets-icon.png" alt="">
-            </header>
-            
-            <!--Typing area-->
-            <div class="tweeting-section">
-                <img src="icons/profile-image.jpg" alt="" class="profile-pic">
-                <div class="typing-area">
-                    <textarea name="" id="" cols="30" rows="3" placeholder="What's happening" maxlength="150"></textarea>
-                    <div class="attach-icons">
-                        <div>
-                            <img src="icons/Gallery-icon.jfif" alt="">
-                            <img src="icons/gif-icon.jfif" alt="">
-                            <img src="icons/poll-icon.png" alt="">
-                            <img src="icons/emoji-icon.png" alt="">
-                            <img src="icons/schedule-icon.png" alt="">
-                            <img src="icons/location-icon.png" alt="">
-                        </div>
-                        <div>
-                            <button class="tweet-btn">Tweet</button>
-                        </div>
-                    </div>
-                    
-                </div>
+    <main>
+        <section class="tweet-column">
+            <div class="vertical-left">
+    
             </div>
-            <hr>
-            <!--Tweets 1-->
-            <div class="tweet">
-                <div class="recommendation-row">
-                    <p>
-                        <span class="topic">Based on your Retweets &#183;</span>
-                        <span class="see-more">See more</span> 
-                    </p>
-                </div>
-                <div class="id-and-message-row">
-                    <div>
-                        <img src="icons/user-dp.jpg" alt="" class="profile-pic">
-                    </div>
-                    <div class="message-section">
-                        <div class="user-id">
-                            <p>
-                            <span class="account-name">The Romantic Mukiga</span>
-                            <span class="twitter-handle">@meka-ug &#183; 15h</span>
-                            </p>
-                            <p class="options-icon">&#8230;</p>
+            <div class="middle-section">
+                <header>
+                    <p>Home</p>
+                    <img src="icons/top-tweets-icon.png" alt="">
+                </header>
+                
+                <!--Typing area-->
+                <div class="tweeting-section">
+                    <img src="icons/profile-image.jpg" alt="" class="profile-pic">
+                    <div class="typing-area">
+                        <textarea name="" id="" cols="30" rows="3" placeholder="What's happening" maxlength="150"></textarea>
+                        <div class="attach-icons">
+                            <div>
+                                <img src="icons/Gallery-icon.jfif" alt="">
+                                <img src="icons/gif-icon.jfif" alt="">
+                                <img src="icons/poll-icon.png" alt="">
+                                <img src="icons/emoji-icon.png" alt="">
+                                <img src="icons/schedule-icon.png" alt="">
+                                <img src="icons/location-icon.png" alt="">
+                            </div>
+                            <div>
+                                <button class="tweet-btn">Tweet</button>
+                            </div>
                         </div>
-                        <div class="message">
-                            <p>
-                                Oba how does his wife feel after 
-                                seeing him tweet stuff like that??
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Numquam, saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Nam, doloremque? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                        </div>
-                        <div class="tweet-stats">
-                                <p class="stats-icon">&#8624; 567</p>
-                                <p class="stats-icon"> &#8635; 234</p>
-                                <p class="stats-icon"> &#10084; 2178</p>
-                                <p class="stats-icon"> &#8593;</p>
-                        </div>
+                        
                     </div>
                 </div>
-            </div>
-            <hr>
-            <!--Tweet 2-->
-            <div class="tweet">
-                <div class="recommendation-row">
-                    <p>
-                        <span class="topic">You Follow &#183;</span>
-                        <span class="see-more">See more</span> 
-                    </p>
-                </div>
-                <div class="id-and-message-row">
-                    <div>
-                        <img src="icons/citizen-digital.png" alt="" class="profile-pic">
-                    </div>
-                    <div class="message-section">
-                        <div class="user-id">
-                            <p>
-                            <span class="account-name">Citizen Tv Kenya</span>
-                            <span class="twitter-handle">@citizentvkenya &#183; 43m</span>
-                            </p>
-                            <p class="options-icon">&#8230;</p>
-                        </div>
-                        <div class="message">
-                            <p>
-                                Uber Eats starts delivering marijuana 
-                                <a href="http://ow.ly/xR9q50LcLzq">http://ow.ly/xR9q50LcLzq</a>
-                            </p>
-                            <img src="icons/uber-eats.jfif" alt="">
-                        </div>
-                        <div class="tweet-stats">
-                                <p class="stats-icon">&#8624; 567</p>
-                                <p class="stats-icon"> &#8635; 234</p>
-                                <p class="stats-icon"> &#10084; 2178</p>
-                                <p class="stats-icon"> &#8593;</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!--Tweets 1-->
-            <div class="tweet">
-                <div class="id-and-message-row">
-                    <div>
-                        <img src="icons/billionaire-secret.jpg" alt="" class="profile-pic">
-                    </div>
-                    <div class="message-section">
-                        <div class="user-id">
-                            <p>
-                            <span class="account-name">billionaire_secrets/span>
-                            <span class="twitter-handle">@billionaire_key &#183; 15h</span>
-                            </p>
-                            <p class="options-icon">&#8230;</p>
-                        </div>
-                        <div class="message">
-                            <p>
-                                What does Success mean?
-                            </p>
-                        </div>
-                        <div class="tweet-stats">
-                                <p class="stats-icon">&#8624; 163</p>
-                                <p class="stats-icon"> &#8635; 120</p>
-                                <p class="stats-icon"> &#10084; 880</p>
-                                <p class="stats-icon"> &#8593;</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!--Tweets 4-->
-            <div class="tweet">
-                <div class="recommendation-row">
-                    <p>
-                        <span class="topic">Local news &#183;</span>
-                        <span class="see-more">See more</span> 
-                    </p>
-                </div>
-                <div class="id-and-message-row">
-                    <div>
-                        <img src="icons/k24.jpg" alt="" class="profile-pic">
-                    </div>
-                    <div class="message-section">
-                        <div class="user-id">
-                            <p>
-                            <span class="account-name">K24 TV</span>
-                            <span class="twitter-handle">@K24Tv &#183; 2h</span>
-                            </p>
-                            <p class="options-icon">&#8230;</p>
-                        </div>
-                        <div class="message">
-                            <p>
-                                "Donate the Sh100 or Sh200 you will have saved by fasting to assist 
-                                the hungry. We shall be serving God by helping the poor and the starving."
-                                -First Lady, Rachel Ruto.
-                            </p>
-                            <img src="icons/donate.jfif" alt="">
-                        </div>
-                        <div class="tweet-stats">
-                                <p class="stats-icon">&#8624; 567</p>
-                                <p class="stats-icon"> &#8635; 234</p>
-                                <p class="stats-icon"> &#10084; 2178</p>
-                                <p class="stats-icon"> &#8593;</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!--Topics -->
-            <div class="topics-section">
-                <div class="section-head">
-                    <div>
-                        <p class="topics-statement">
-                            Expand your timeline with topics
+                <hr>
+                <!--Tweets 1-->
+                <div class="tweet">
+                    <div class="recommendation-row">
+                        <p>
+                            <span class="topic">Based on your Retweets &#183;</span>
+                            <span class="see-more">See more</span> 
                         </p>
                     </div>
-                    <div>
-                        <p class="options-icon">&#8230;</p>
-                    </div>   
-                </div>
-                <p class="section-description">
-                    You'll see top Tweets about these right in your Home timeline
-                </p>
-                <div class="topics-btns">
-                    <div>
-                        <button>
-                            <p class="topic-name">$HNT</p>
-                            <p > <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                        <button>
-                            <p class="topic-name">$GME</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                        <button>
-                            <p class="topic-name">Ford</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                    </div>
-                    <div>
-                        <button>
-                            <p class="topic-name">$INTU</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                        <button>
-                            <p class="topic-name">Gym workouts</p>
-                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                        <button>
-                            <p class="topic-name">PUMA</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                    </div>
-                    <div>
-                        <button>
-                            <p class="topic-name">Insurance</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                        <button>
-                            <p class="topic-name">Bodybuilding</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                        <button>
-                            <p class="topic-name">Weather</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                    </div>
-                    <div>
-                        <button>
-                            <p class="topic-name">Language learning</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                        <button>
-                            <p class="topic-name">Nike</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                        <button>
-                            <p class="topic-name">Cooking</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                    </div>
-                    <div>
-                        <button>
-                            <p class="topic-name">Marketing</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                        <button>
-                            <p class="topic-name">Morehouse College</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
-                        <button>
-                            <p class="topic-name">Business</p>
-                            <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
-                        </button>
+                    <div class="id-and-message-row">
+                        <div>
+                            <img src="icons/user-dp.jpg" alt="" class="profile-pic">
+                        </div>
+                        <div class="message-section">
+                            <div class="user-id">
+                                <p>
+                                <span class="account-name">The Romantic Mukiga</span>
+                                <span class="twitter-handle">@meka-ug &#183; 15h</span>
+                                </p>
+                                <p class="options-icon">&#8230;</p>
+                            </div>
+                            <div class="message">
+                                <p>
+                                    Oba how does his wife feel after 
+                                    seeing him tweet stuff like that??
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Numquam, saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nam, doloremque? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                            <div class="tweet-stats">
+                                    <p class="stats-icon">&#8624; 567</p>
+                                    <p class="stats-icon"> &#8635; 234</p>
+                                    <p class="stats-icon"> &#10084; 2178</p>
+                                    <p class="stats-icon"> &#8593;</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <a href="#">Show more</a>
-            </div>
-            <!--Topics End-->
-            <hr>
-             <!--Tweet 2-->
-             <div class="tweet">
-                <div class="recommendation-row">
-                    <p>
-                        <span class="topic">You Follow &#183;</span>
-                        <span class="see-more">See more</span> 
-                    </p>
-                </div>
-                <div class="id-and-message-row">
-                    <div>
-                        <img src="icons/citizen-digital.png" alt="" class="profile-pic">
+                <hr>
+                <!--Tweet 2-->
+                <div class="tweet">
+                    <div class="recommendation-row">
+                        <p>
+                            <span class="topic">You Follow &#183;</span>
+                            <span class="see-more">See more</span> 
+                        </p>
                     </div>
-                    <div class="message-section">
-                        <div class="user-id">
-                            <p>
-                            <span class="account-name">Citizen Tv Kenya</span>
-                            <span class="twitter-handle">@citizentvkenya &#183; 43m</span>
+                    <div class="id-and-message-row">
+                        <div>
+                            <img src="icons/citizen-digital.png" alt="" class="profile-pic">
+                        </div>
+                        <div class="message-section">
+                            <div class="user-id">
+                                <p>
+                                <span class="account-name">Citizen Tv Kenya</span>
+                                <span class="twitter-handle">@citizentvkenya &#183; 43m</span>
+                                </p>
+                                <p class="options-icon">&#8230;</p>
+                            </div>
+                            <div class="message">
+                                <p>
+                                    Uber Eats starts delivering marijuana 
+                                    <a href="http://ow.ly/xR9q50LcLzq">http://ow.ly/xR9q50LcLzq</a>
+                                </p>
+                                <img src="icons/uber-eats.jfif" alt="">
+                            </div>
+                            <div class="tweet-stats">
+                                    <p class="stats-icon">&#8624; 567</p>
+                                    <p class="stats-icon"> &#8635; 234</p>
+                                    <p class="stats-icon"> &#10084; 2178</p>
+                                    <p class="stats-icon"> &#8593;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!--Tweets 1-->
+                <div class="tweet">
+                    <div class="id-and-message-row">
+                        <div>
+                            <img src="icons/billionaire-secret.jpg" alt="" class="profile-pic">
+                        </div>
+                        <div class="message-section">
+                            <div class="user-id">
+                                <p>
+                                <span class="account-name">billionaire_secrets/span>
+                                <span class="twitter-handle">@billionaire_key &#183; 15h</span>
+                                </p>
+                                <p class="options-icon">&#8230;</p>
+                            </div>
+                            <div class="message">
+                                <p>
+                                    What does Success mean?
+                                </p>
+                            </div>
+                            <div class="tweet-stats">
+                                    <p class="stats-icon">&#8624; 163</p>
+                                    <p class="stats-icon"> &#8635; 120</p>
+                                    <p class="stats-icon"> &#10084; 880</p>
+                                    <p class="stats-icon"> &#8593;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!--Tweets 4-->
+                <div class="tweet">
+                    <div class="recommendation-row">
+                        <p>
+                            <span class="topic">Local news &#183;</span>
+                            <span class="see-more">See more</span> 
+                        </p>
+                    </div>
+                    <div class="id-and-message-row">
+                        <div>
+                            <img src="icons/k24.jpg" alt="" class="profile-pic">
+                        </div>
+                        <div class="message-section">
+                            <div class="user-id">
+                                <p>
+                                <span class="account-name">K24 TV</span>
+                                <span class="twitter-handle">@K24Tv &#183; 2h</span>
+                                </p>
+                                <p class="options-icon">&#8230;</p>
+                            </div>
+                            <div class="message">
+                                <p>
+                                    "Donate the Sh100 or Sh200 you will have saved by fasting to assist 
+                                    the hungry. We shall be serving God by helping the poor and the starving."
+                                    -First Lady, Rachel Ruto.
+                                </p>
+                                <img src="icons/donate.jfif" alt="">
+                            </div>
+                            <div class="tweet-stats">
+                                    <p class="stats-icon">&#8624; 567</p>
+                                    <p class="stats-icon"> &#8635; 234</p>
+                                    <p class="stats-icon"> &#10084; 2178</p>
+                                    <p class="stats-icon"> &#8593;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!--Topics -->
+                <div class="topics-section">
+                    <div class="section-head">
+                        <div>
+                            <p class="topics-statement">
+                                Expand your timeline with topics
                             </p>
+                        </div>
+                        <div>
                             <p class="options-icon">&#8230;</p>
+                        </div>   
+                    </div>
+                    <p class="section-description">
+                        You'll see top Tweets about these right in your Home timeline
+                    </p>
+                    <div class="topics-btns">
+                        <div>
+                            <button>
+                                <p class="topic-name">$HNT</p>
+                                <p > <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                            <button>
+                                <p class="topic-name">$GME</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                            <button>
+                                <p class="topic-name">Ford</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
                         </div>
-                        <div class="message">
-                            <p>
-                                Uber Eats starts delivering marijuana 
-                                <a href="http://ow.ly/xR9q50LcLzq">http://ow.ly/xR9q50LcLzq</a>
-                            </p>
-                            <img src="icons/uber-eats.jfif" alt="">
+                        <div>
+                            <button>
+                                <p class="topic-name">$INTU</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                            <button>
+                                <p class="topic-name">Gym workouts</p>
+                                    <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                            <button>
+                                <p class="topic-name">PUMA</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
                         </div>
-                        <div class="tweet-stats">
-                                <p class="stats-icon">&#8624; 567</p>
-                                <p class="stats-icon"> &#8635; 234</p>
-                                <p class="stats-icon"> &#10084; 2178</p>
-                                <p class="stats-icon"> &#8593;</p>
+                        <div>
+                            <button>
+                                <p class="topic-name">Insurance</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                            <button>
+                                <p class="topic-name">Bodybuilding</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                            <button>
+                                <p class="topic-name">Weather</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                        </div>
+                        <div>
+                            <button>
+                                <p class="topic-name">Language learning</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                            <button>
+                                <p class="topic-name">Nike</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                            <button>
+                                <p class="topic-name">Cooking</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                        </div>
+                        <div>
+                            <button>
+                                <p class="topic-name">Marketing</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                            <button>
+                                <p class="topic-name">Morehouse College</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                            <button>
+                                <p class="topic-name">Business</p>
+                                <p> <span class="add-topic">&#x2B;</span>| <span class="remove-topic">&#128473;</span></p>
+                            </button>
+                        </div>
+                    </div>
+                    <a href="#">Show more</a>
+                </div>
+                <!--Topics End-->
+                <hr>
+                 <!--Tweet 2-->
+                 <div class="tweet">
+                    <div class="recommendation-row">
+                        <p>
+                            <span class="topic">You Follow &#183;</span>
+                            <span class="see-more">See more</span> 
+                        </p>
+                    </div>
+                    <div class="id-and-message-row">
+                        <div>
+                            <img src="icons/citizen-digital.png" alt="" class="profile-pic">
+                        </div>
+                        <div class="message-section">
+                            <div class="user-id">
+                                <p>
+                                <span class="account-name">Citizen Tv Kenya</span>
+                                <span class="twitter-handle">@citizentvkenya &#183; 43m</span>
+                                </p>
+                                <p class="options-icon">&#8230;</p>
+                            </div>
+                            <div class="message">
+                                <p>
+                                    Uber Eats starts delivering marijuana 
+                                    <a href="http://ow.ly/xR9q50LcLzq">http://ow.ly/xR9q50LcLzq</a>
+                                </p>
+                                <img src="icons/uber-eats.jfif" alt="">
+                            </div>
+                            <div class="tweet-stats">
+                                    <p class="stats-icon">&#8624; 567</p>
+                                    <p class="stats-icon"> &#8635; 234</p>
+                                    <p class="stats-icon"> &#10084; 2178</p>
+                                    <p class="stats-icon"> &#8593;</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <hr>
             </div>
-            <hr>
-        </div>
-        <div class="vertical-right">
-
-        </div>
-    </section>
+            <div class="vertical-right">
+    
+            </div>
+        </section>
+    </main>
+    
         <!--END OF MIDDLE SECTION-->
 
         <!--RIGHT SECTION BEGIN-->
